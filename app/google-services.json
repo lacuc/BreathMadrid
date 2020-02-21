@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "310790711820",
+    "firebase_url": "https://breath-madrid.firebaseio.com",
+    "project_id": "breath-madrid",
+    "storage_bucket": "breath-madrid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310790711820:android:1d69cdbab3a3f0ba84dc29",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310790711820-ccr16quvnvl0t0dik15g9daj3e421rv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8PQSatjCQMSV9lBACMC1KWcp9GMAi1l4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310790711820-ccr16quvnvl0t0dik15g9daj3e421rv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
