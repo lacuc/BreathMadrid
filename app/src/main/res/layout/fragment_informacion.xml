@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorPantone2020"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/consulta_emision"
+                android:textSize="24sp"
+                android:textColor="@color/colorBlanco"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/claisf_dgt"
+                android:textColor="@color/colorBlanco"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/idText3Scrolling"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text=" -Vehículos 0:"
+                    android:textColor="@color/colorBlanco"
+                    android:textSize="24sp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/vehiculo0"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Identificados con la pegatina azul, los vehículos de cero emisiones incluyen turismos, triciclos, cuadriciclos, motos, ciclomotores, furgonetas ligeras, vehículos de más de 8 plazas o vehículos de transporte de mercancías que aparezcan en el Registro de Vehículos de Tráfico como vehículos eléctricos de batería (BEV), de autonomía extendida (REEV), eléctricos híbridos enchufables (PHEV) con una autonomía mínima de 40 km. o vehículos de pila de combustible."
+                android:textSize="16sp"
+                android:textColor="@color/colorBlanco"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/idText4Scrolling"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text=" -Vehículos ECO:"
+                    android:textColor="@color/colorBlanco"
+                    android:textSize="24sp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/vehiculoeco"/>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="El distintivo ambiental que los identifica es verde y azul, y esta categoría incluye a los turismos, furgonetas ligeras, vehículos de más de 8 plazas y vehículos de transporte de mercancías que aparezcan en el Registro de Vehículos comohíbridos enchufables con una autonomía inferior a 40 km, híbridos no enchufables (HEV), y los GNC, GNL y GLP, vehículos propulsados por gas natural comprimido, gas natural licuado o gas licuado del petróleo respectivamente. Además, deben cumplir con los requisitos de la etiqueta C."
+                android:textColor="@color/colorBlanco"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/idText5Scrolling"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text=" -Vehículos C:"
+                    android:textColor="@color/colorBlanco"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/vehiculoc"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Su pegatina es de color verde, e incluye a los turismos y furgonetas ligeras de gasolina matriculados a partir de enero de 2006, los turismos y furgonetas diésel matriculados después de enero de 2014 y los vehículos de más de 8 plazas y transporte de mercancías matriculados desde 2014, diésel o gasolina. Esta diferencia de fechas entre diésel y gasolina se debe a que los vehículos diésel deben cumplir con la norma Euro 6, más restrictiva con las emisiones, y los de gasolina las normas Euro 4, Euro 5 y Euro 6."
+                android:textColor="@color/colorBlanco"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/idText6Scrolling"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text=" -Vehículos B:"
+                    android:textColor="@color/colorBlanco"
+                    android:textSize="24sp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/vehiculob"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Para la categoría B la DGT eligió el distintivo ambiental amarillo, que lucen los vehículos de gasolina que cumplen con la norma Euro 3 y los diésel que cumplen con la Euro 4 y Euro 5. Si nos fijamos en la fecha de matriculación, son los turismos y furgonetas ligeras de gasolina posteriores al 2000 y los turismos y furgonetas ligeras diésel matriculadas desde enero de 2006, además de los vehículos de 8 plazas y transporte de mercancías diésel y gasolina matriculados a partir de 2005."
+                android:textColor="@color/colorBlanco"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/idText7Scrolling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text=" -Vehículos sin distintivo ambiental:"
+                android:textColor="@color/colorBlanco"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Si tu vehículo no ha recibido ninguna de estas pegatinas es porque la DGT lo incluye entre los que se han matriculado antes del 2000 si utiliza gasolina o antes del 2006 si es diésel, así que no se ajusta a los cerca de 16 millones de vehículos que menos contaminan. Aproximadamente la mitad del parque automovilístico español se ha quedado sin el distintivo ambiental."
+                android:textColor="@color/colorBlanco"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

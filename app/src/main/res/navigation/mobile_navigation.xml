@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.sermami.bmad.ui.mapa.MapaFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_mapa" />
+
+    <fragment
+        android:id="@+id/nav_calculo"
+        android:name="com.sermami.bmad.ui.calculo_co2.CalculoFragment"
+        android:label="@string/menu_calculo"
+        tools:layout="@layout/fragment_calculo" />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.sermami.bmad.ui.informacion.InformacionFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_informacion" />
+
+</navigation>

@@ -1,10 +1,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.login.ScrollingActivity">
+    tools:context="com.sermami.bmad.ScrollingActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_cerrar_sesion"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/action_cerrar_sesion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_salir"
+        android:orderInCategory="200"
+        android:title="@string/action_salir"
         app:showAsAction="never" />
 </menu>
